@@ -20,4 +20,4 @@
 
 # First Type Annotation
 
-![Type Annotation]()
+![Type Annotation](https://github.com/thaian161/learning-TypeScript/blob/main/docs/typeAnnotation.png)
