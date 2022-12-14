@@ -18,11 +18,26 @@
 - File with .ts ending
 - To compile your ts code to js, run `tsc filename`
 
-# First Type Annotation
+# Section 1: Type Annotation Basics
 
 ![Type Annotation](https://github.com/thaian161/learning-TypeScript/blob/main/docs/typeAnnotation.png)
 
 - Assigning a basic type to variable by add `:Type` after variable name
+- `type` need to be in all lowercase
+
   ```
+  let myVar: type = value;
+
   const myVariable: string = 'This Is Awesome!!!';
   ```
+
+## Numbers & Booleans
+
+- All lowercase as well, just `number` and `boolean`
+
+```
+const myNum: number = 7;
+const myBoolean: boolean = true;
+```
+
+## Compiling TS
