@@ -47,3 +47,14 @@ const myBoolean: boolean = true;
 ## Type Inference
 
 ![Type Inference](https://github.com/thaian161/learning-TypeScript/blob/main/docs/TypeInference.png)
+
+```
+//Type Inference
+let tvShow = 'Criminal mind';
+tvShow = 'CSI';
+tvShow = false; //warning error type
+```
+
+## Any Type
+
+- Allow you to use any types but it is sort of defeats the purpose of TS and types => use it sparingly
