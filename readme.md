@@ -41,3 +41,9 @@ const myBoolean: boolean = true;
 ```
 
 ## Compiling TS
+
+- run `tsc` => we will see error shown in the terminal
+
+## Type Inference
+
+![Type Inference](https://github.com/thaian161/learning-TypeScript/blob/main/docs/TypeInference.png)
