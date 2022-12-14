@@ -19,3 +19,5 @@
 - To compile your ts code to js, run `tsc filename`
 
 # First Type Annotation
+
+![Type Annotation]()
