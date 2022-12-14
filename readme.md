@@ -21,3 +21,6 @@
 # First Type Annotation
 
 ![Type Annotation](https://github.com/thaian161/learning-TypeScript/blob/main/docs/typeAnnotation.png)
+
+- Assigning a basic type to variable by add `:Type` after variable name
+  `const myVariable: string = 'This Is Awesome!!!';`
