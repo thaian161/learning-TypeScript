@@ -18,7 +18,7 @@
 - File with .ts ending
 - To compile your ts code to js, run `tsc filename`
 
-# Section 1: Type Annotation Basics
+# SECTION 1: TYPE ANNOTATION BASICS
 
 ![Type Annotation](https://github.com/thaian161/learning-TypeScript/blob/main/docs/typeAnnotation.png)
 
@@ -57,4 +57,25 @@ tvShow = false; //warning error type
 
 ## Any Type
 
+- When we don't annotate a variable's type AND we don't initialize it with a value, it has a type of "any"
 - Allow you to use any types but it is sort of defeats the purpose of TS and types => use it sparingly
+
+## Delayed Initialization & Implicit Any
+
+```
+const movies = ['Titanic', 'CSI', 'Criminal Minds'];
+
+let foundMovie;
+
+for (let movie of movies) {
+  if (movie === 'CSI') {
+    foundMovie === 'CSI';
+  }
+}
+foundMovie();
+foundMovie = 1; //foundMovie was inference as type any, in this case we wanna specifically asign type for foundMovie without using type inference
+```
+
+# SECTION 2: FUNCTIONS
+
+![Functions](https://github.com/thaian161/learning-TypeScript/blob/main/docs/functions.png)

@@ -21,3 +21,16 @@ let thing: any = 'hello ';
 thing = 1;
 thing = false;
 thing();
+
+// Delayed Initialization & Implicit Any
+const movies = ['Titanic', 'CSI', 'Criminal Minds'];
+
+let foundMovie;
+
+for (let movie of movies) {
+  if (movie === 'CSI') {
+    foundMovie === 'CSI';
+  }
+}
+foundMovie();
+foundMovie = 1; //foundMovie was inference as type any, in this case we wanna specifically asign type for foundMovie without using type inference
