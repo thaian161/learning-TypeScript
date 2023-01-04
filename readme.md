@@ -55,6 +55,8 @@ tvShow = 'CSI';
 tvShow = false; //warning error type
 ```
 
+
+
 ## Any Type
 
 - When we don't annotate a variable's type AND we don't initialize it with a value, it has a type of "any"
