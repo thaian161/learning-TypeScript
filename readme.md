@@ -81,3 +81,17 @@ foundMovie = 1; //foundMovie was inference as type any, in this case we wanna sp
 # SECTION 2: FUNCTIONS
 
 ![Functions](https://github.com/thaian161/learning-TypeScript/blob/main/docs/functions.png)
+- set type for your function's param
+```
+function cal(num: number){
+  return num * num
+}
+cal(6) // good
+cal("hello") // ts will complain 
+
+function sayHello(name: string){
+  console.log("Oh hello ${name}")
+}
+sayHello("Ann") //good
+sayHello(777) // ts will complain 
+```
