@@ -98,7 +98,9 @@ sayHello("Ann") //good
 sayHello(777) // ts will complain 
 ```
 
+## Default params (if we don't pass in any param)
 - We can also work with default params like so:
+
 ```
 //set name = there if when called function greeting() but does not provide any param
 function greeting(name: string = "there"){
@@ -107,3 +109,6 @@ function greeting(name: string = "there"){
 greeting() // "Oh hello there"
 greeting("Ann") // "Oh hello Ann"
 ```
+
+## Return Type Annotation (return value type when call function)
+![Functions Return Type](https://github.com/thaian161/learning-TypeScript/blob/main/docs/func-return-type.png)
