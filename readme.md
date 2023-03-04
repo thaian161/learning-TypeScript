@@ -82,6 +82,8 @@ foundMovie = 1; //foundMovie was inference as type any, in this case we wanna sp
 
 ![Functions](https://github.com/thaian161/learning-TypeScript/blob/main/docs/functions.png)
 - set type for your function's param
+- without setting type, your param's type will be set default as `any `
+
 ```
 function cal(num: number){
   return num * num
@@ -94,4 +96,14 @@ function sayHello(name: string){
 }
 sayHello("Ann") //good
 sayHello(777) // ts will complain 
+```
+
+- We can also work with default params like so:
+```
+//set name = there if when called function greeting() but does not provide any param
+function greeting(name: string = "there"){
+  console.log("Oh hello ${name}")
+}
+greeting() // "Oh hello there"
+greeting("Ann") // "Oh hello Ann"
 ```
