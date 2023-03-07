@@ -112,3 +112,6 @@ greeting("Ann") // "Oh hello Ann"
 
 ## Return Type Annotation (return value type when call function)
 ![Functions Return Type](https://github.com/thaian161/learning-TypeScript/blob/main/docs/func-return-type.png)
+- We can specify the type returned by a function by annotate the return type
+- Add return type right after params. The doMath() return type is `number`
+`const doMath = (x:number, y:number): number => {}`
